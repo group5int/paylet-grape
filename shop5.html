@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lng="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Product Details</Title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="design.css">
+<style>
+    .small-img-group{
+        display: flex;
+        justify-content: space-between;
+    }
+    .small-img-col{
+        flex-basis: 24%;
+        cursor: pointer;
+    }
+    .buybtn{
+        width: 150px;
+        height: 50px;
+        background-color: rgb(100, 2, 2);
+        opacity: 1;
+        transition: 0.3s all;
+    }
+    h2{
+        color: black;
+    }
+    .sproduct select{
+        display: block;
+        padding: 5px 10px;
+    }
+    .sproduct input{
+        width: 50px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+
+    }
+    .sproduct input:focus{
+        outline: none;
+    }
+</style>
+    
+</head>
+<body>
+    <!---Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 fixed-top">
+        <div class="container">
+          <img src="imagess/Demon_Slayer_Japanese_Logo.png" height = "95" width="95" style=" border-radius:60%;" alt="">>
+          <span style = "color:#dc3545; font-style:georgia; font-weight: 900; font-size: 40px; vertical-align: left;">DemonSlayer</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar"class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="eco.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="abouts.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <i class="fad fa-search"></i>
+                <i class="fad fa-shopping-bag"></i>
+              </li>
+
+             
+          </div>
+        </div>
+      </nav>
+
+      <section class="container sproduct my-5 pt-5">
+          <div class="row mt-5">
+              <div class="col-lg-5 col-ld-12 col-12">
+                  <img class= "img-fluid w-100 pb-1"src="imagess/shop/hoodie1.jpg" id="MainImg" alt="">
+                  <div class="small-img-group">
+                      <div class="small-img-col">
+                          <img src="imagess/shop/hoodie1-2.jpg" width="100% "class="small-img" alt="">
+                      </div>
+                      <div class="small-img-col">
+                        <img src="imagess/shop/hoodie1.jpg" width="100% "class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="imagess/shop/hoodie1-2.jpg" width="100% "class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="imagess/shop/hoodie1.jpg" width="100% "class="small-img" alt="">
+                    </div>
+                  </div>
+              </div>
+              
+              <div class="col-lg-6 col-md-12 col-12">
+                <h6>Sale!</h6>
+                <h3 class="py-4">Demon Slayer Hoodie Sabito</h3>
+                <h2>$20.00</h2>
+                <select class="my-3">
+                    <option>Select Size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <input type="number" value="1">
+                <button class="buybtn">Add to Cart</button>
+                <h4 class="mt-5 mb-5">Product Details</h4>
+                <span>The cold days are coming, but our Anime Streetwear Hoodie is here to keep you warm all day long!
+
+                    Hoodies are one of the coolest kinds of clothes out there. It fits perfectly into almost any environment and occasion. Hoodies have been around for a while now. These are basically sweaters with hoods attached near the hole. The design on this awesome hoodie is inspired by various anime characters rocking modern streetwear outfits! </span>
+              </div>
+              
+          </div>
+      </section>
+      <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+            <h3>Related Products</h3>
+            <hr class="mx-auto">
+            
+
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="imagess/featured/bag1.jfif" alt="">
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h5 class="pname">Tote Bag</h5>
+                <h4 class="pprice">$20.00</h4>
+                <buttom class="buybtn">Buy Now</buttom>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid mb-3" src="imagess/featured/bag2.jfif" alt="">
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h5 class="pname">Sling Bag</h5>
+              <h4 class="pprice">$20.00</h4>
+              <buttom class="buybtn">Buy Now</buttom>
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="imagess/featured/bag3.jfif" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="pname">BackPack</h5>
+            <h4 class="pprice">$20.00</h4>
+            <buttom class="buybtn">Buy Now</buttom>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="imagess/featured/bag4.jfif" alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="pname">Tote Bag</h5>
+          <h4 class="pprice">$20.00</h4>
+          <buttom class="buybtn">Buy Now</buttom>
+      </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+      <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5" >
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <img src="imagess/Demon_Slayer_Japanese_Logo.png" height = "95" width="95" style=" border-radius:60%;" alt="">>
+            <p> Demon Slayer is a Online shop for the People who love demon slayer.</p>
+          </div>
+         <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+         <h5 class="pb-2">Featured</h5>
+         <ul class="text-uppercase list-unstyled">
+           <li><a href="#">Men</a></li>
+           <li><a href="#">Women</a></li>
+           <li><a href="#">Boys</a></li>
+           <li><a href="#">Girls</a></li>
+           <li><a href="#">men</a></li>
+           <li><a href="#">New Arrivals</a></li>
+           
+           </ul>
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pb-2">Contact us</h5>
+           <div>
+             <h6 class="text-uppercase">Address</h6>
+              <p>350 - Chico St Cembo, Makati City, PH</p>
+           </div>
+           <div>
+            <h6 class="text-uppercase">Contact number</h6>
+             <p>(63)960 508 3853</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Email</h6>
+             <p>redmercy.ros@gmail.com</p>
+          </div>
+             </div> 
+             <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+              <h5 class="pb-2">Instagram</h5>
+              <div class="row">
+                <img class="img-fluid w-25 h-100 m-2 "src="imagess/insta/m1.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2 "src="imagess/insta/m2.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2 "src="imagess/insta/m3.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2 "src="imagess/insta/m4.jpg" alt="">
+                <img class="img-fluid w-25 h-100 m-2 "src="imagess/insta/m5.jpg" alt="">
+              </div>
+        </div>
+        <div class="copyright mt-5">
+          <div class="row container mx-auto">
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+              <img src="imagess/payment.png" alt="">
+              
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 test flex-nowrap mb-2">
+              <p>Demon Slayer ecommerce ® 2021. All Rights Reserved</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<script>
+    var MainImg = document.getElementById('MainImg');
+    var smallimg = document.getElementsByClassName('small-img');
+
+   smallimg[0].onclick = function (){
+       MainImg.src = smallimg[0].src;
+   } 
+   smallimg[1].onclick = function (){
+       MainImg.src = smallimg[2].src;
+   }
+   smallimg[2].onclick = function (){
+       MainImg.src = smallimg[3].src;
+   }
+   smallimg[3].onclick = function (){
+       MainImg.src = smallimg[3].src;
+   }
+</script>
+</body>
+</html>
